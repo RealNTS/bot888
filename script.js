@@ -5,9 +5,9 @@ function sendMessage() {
   if (message !== "") {
     appendMessage(message, "user-message");
 
-    // Simulating bot response
+    // Bot response
     setTimeout(() => {
-      appendMessage("This is a bot response to: " + message, "bot-message");
+      appendMessage("This is sample", "bot-message");
     }, 1000);
 
     inputField.value = "";
